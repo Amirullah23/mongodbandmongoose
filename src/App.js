@@ -10,7 +10,8 @@ import {
     SignIn,
     SignUp,
     Todo,
-    TodoMongoose
+    TodoMongoose,
+    TodoMysql
 } from "./components";
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
                 </Route>
                 <Route path="/todo/mongoose">
                     <TodoMongoose />
+                </Route>
+                <Route path="/todo/mysql/">
+                    <TodoMysql />
                 </Route>
                 <Route path="/signup">
                     <SignUp />
