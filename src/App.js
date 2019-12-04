@@ -11,7 +11,8 @@ import {
     SignUp,
     Todo,
     TodoMongoose,
-    TodoMysql
+    TodoMysql,
+    Todosquel
 } from "./components";
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
                 </Route>
                 <Route path="/todo/mysql/">
                     <TodoMysql />
+                </Route>
+                <Route path="/todo/squel/">
+                    <Todosquel />
                 </Route>
                 <Route path="/signup">
                     <SignUp />
